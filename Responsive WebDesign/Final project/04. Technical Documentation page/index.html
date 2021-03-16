@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<title>Technical Documentation Page</title>
+	<style>
+
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.5;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+ul{
+	margin-top: 15%;
+}
+p{
+	margin-left: 50px;
+}
+header{
+	margin-top: 5%;
+	text-align: center;
+}
+#navbar a {
+	width: 450px;
+    display: grid;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    cursor: pointer;
+}
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.side1{
+	grid-area: side1;
+	width: max-content;
+}
+.side2{
+	margin:2% 5%;
+	grid-area: side2;
+}
+#main-doc{
+	display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-areas: "side1 side2";
+    grid-column-gap: 10%;
+    font-size:16px;
+}
+  @media (max-width: 850px){
+  	#main-doc{
+  		display: grid;
+    	grid-template-columns: 0.3fr 1fr;
+ 		font-size:16px;   
+  		grid-template-areas: 
+  	  	"side1"
+  	  	"side2";
+  	  }
+}
+	</style>
+</head>
+<body>
+	<main id="main-doc">
+
+		<div class="side1">
+			<nav id="navbar">
+			<header><h1>JS Documentation</h1></header>
+			<ul>
+				<li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+				<li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+				<li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+				<li><a class="nav-link" href="#Variables">Variables</a></li>
+				<li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+				<li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+				<li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+				<li><a class="nav-link" href="#Constants">Constants</a></li>
+				<li><a class="nav-link" href="#Data_types">Data types</a></li>
+				<li><a class="nav-link" href="#if...else_statement">if...else statement</a></li>
+				<li><a class="nav-link" href="#while_statement">while statement</a></li>
+				<li><a class="nav-link" href="#Function_declarations">Function declarations</a></li>
+				<li><a class="nav-link" href="#Reference">Reference</a></li>
+				<li></li>
+			</ul>
+			</nav>
+		</div>
+		
+		<div class="side2">
+			<section class="main-section" id="Introduction">
+			<header>Introduction</header>
+		</section>
+		
+		<section class="main-section" id="What_you_should_already_know">
+			<header>What you should already know</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		
+		<section class="main-section" id="JavaScript_and_Java">
+			<header>JavaScript and Java</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		
+		<section class="main-section" id="Hello_world">
+			<header>Hello world</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<li>Hello World</li>
+			<li>Hello World</li>
+			<li>Hello World</li>
+			<li>Hello World</li>
+			<li>Hello World</li>			
+		</section>
+		
+		<section class="main-section" id="Variables">
+			<header>Variables</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<li>Variables</li>
+			<li>Variables</li>
+			<li>Variables</li>
+			<li>Variables</li>
+			<li>Variables</li>
+		</section>
+		
+		<section class="main-section" id="Declaring_variables">
+			<header>Declaring variables</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		
+		<section class="main-section" id="Variable_scope">
+			<header>Variable scope</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		
+		<section class="main-section" id="Global_variables">
+			<header>Global variables</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		
+		<section class="main-section" id="Constants">
+			<header>Constants</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<code>zomibie</code>
+		</section>
+		
+		<section class="main-section" id="Data_types">
+			<header>Data types</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<code>zomibie</code>
+		</section>
+		
+		<section class="main-section" id="if...else_statement">
+			<header>if...else statement</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<code>zomibie</code>
+		</section>
+		
+		<section class="main-section" id="while_statement">
+			<header>while statement</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<code>zomibie</code>
+		</section>
+		
+		<section class="main-section" id="Function_declarations">
+			<header>Function declarations</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<code>zomibie</code>
+		</section>
+		
+		<section class="main-section" id="Reference">
+			<header>Reference</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<code>zomibie</code>
+		</section>
+		</div>
+		
+	</main>
+</body>
+</html>
